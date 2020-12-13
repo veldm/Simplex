@@ -109,6 +109,7 @@ def calculate(lines):
                 out=out+str(round(table[i][j],2))+" | "
             out=out+"\n"
 
-        out=out+"\nРешение:\nX[1] = "+str(result[0])+"\nX[2] = "+str(result[1])
-        
+        out=out+"\nРезультат:"
+        for i in range(len(result)):
+            out=out+"\nx"+str(i)+" = "+str(result[i])
         print(out)

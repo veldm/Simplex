@@ -21,9 +21,6 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="graphics.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="main.py">
       <SubType>Code</SubType>
     </Compile>
