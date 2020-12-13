@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Simplex", "Simplex\Simplex.pyproj", "{DBFA8336-AAF7-4F2F-89EC-A05AA40E5D09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBFA8336-AAF7-4F2F-89EC-A05AA40E5D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFA8336-AAF7-4F2F-89EC-A05AA40E5D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5F0D7B0-4950-4453-AAC0-9D17F9B4AEF3}
+	EndGlobalSection
+EndGlobal
