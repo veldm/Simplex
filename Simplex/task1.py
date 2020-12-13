@@ -12,8 +12,9 @@ def main():
         graphics.Show()
     elif (choose == '2'):
         lines = []
-        count = input('Количестов ограничений')
-
-        Simplex.calculate()
+        count = int(input('Количестов ограничений: '))
+        for i in range(count + 1):
+            lines.append(input())
+        Simplex.calculate(lines)
     elif (choose == '3'):
         pass

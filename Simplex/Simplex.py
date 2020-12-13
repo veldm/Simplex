@@ -1,6 +1,6 @@
 
 
-def calculate():
+def calculate(lines):
         table = []
         basis = []
         result = []
@@ -9,8 +9,8 @@ def calculate():
         m = 0
         n =0
 
-        text = "25 -3 5\n30 -2 5\n10 1 0\n6 3 -8\n0 -6 -5"
-        lines = text.split('\n')
+        #text = "25 -3 5\n30 -2 5\n10 1 0\n6 3 -8\n0 -6 -5"
+        #lines = text.split('\n')
         m = len(lines)
 
         for l in range(0,len(lines)):
